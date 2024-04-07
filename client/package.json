@@ -53,6 +53,7 @@
     "start": "env-cmd -f .env.local react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
     "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!axios)/\"",
     "build:local": "env-cmd -f .env.local react-scripts build",
     "build:dev": "env-cmd -f .env.development react-scripts build",
