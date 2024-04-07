@@ -1,0 +1,106 @@
+.aws-selector {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Add some margin if needed */
+}
+
+.aws-card {
+  max-width: 110px; /* Set the desired image width */
+  height: auto;
+  cursor: pointer;
+  transition: filter 0.2s ease-in-out;
+}
+.gcb-card {
+  max-width: 80px; /* Set the desired image width */
+  height: auto;
+  cursor: pointer;
+  transition: filter 0.2s ease-in-out;
+}
+.azure-card {
+  max-width: 100px; /* Set the desired image width */
+  height: auto;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: filter 0.2s ease-in-out;
+}
+
+/* Apply a filter to make the image darker on hover */
+.aws-card {
+  /* Initial state */
+  filter: brightness(1);
+
+  /* Hover state */
+  &:hover {
+    filter: brightness(0.75);
+  }
+}
+.gcb-card {
+  /* Initial state */
+  filter: brightness(1);
+
+  /* Hover state */
+  &:hover {
+    filter: brightness(0.75);
+  }
+}
+.azure-card {
+  /* Initial state */
+  filter: brightness(1);
+
+  /* Hover state */
+  &:hover {
+    filter: brightness(0.75);
+  }
+}
+.aws-card.selected {
+  filter: brightness(0.75);
+}
+.gcb-card.selected {
+  filter: brightness(0.75);
+}
+.azure-card.selected {
+  filter: brightness(0.75);
+}
+.confirmation-page-container {
+  display: flex;
+  background: linear-gradient(90deg, #fff3e9 30%, #ffffff 70%);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  min-height: 100vh; /* Ensure the container is at least as tall as the viewport */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  min-height: 100vh;
+  position: relative;
+}
+.white-background {
+  background-color: white !important; /* Override the background color */
+}
+.logo-div {
+  height: 100%;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-div img {
+  height: 80px;
+  width: auto;
+}
+.container-page {
+  margin-right: 80px !important;
+}
+.copyright {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 10px;
+}
+.confirmation-page-container .poster-page h1 span {
+  color: #e6923a;
+}
+.pointer-cursor {
+  cursor: pointer;
+}

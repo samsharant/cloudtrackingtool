@@ -1,0 +1,23 @@
+.landing-wrap {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.textarea .MuiInputBase-root {
+    height: 110px;
+}
+
+/* button:hover {
+    background: '#FF6F1A';
+} */
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border: 1px solid #FF6F1A !important;
+}
+
+.contact-us-form label{
+    color: grey !important;
+}
+

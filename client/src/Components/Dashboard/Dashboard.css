@@ -1,0 +1,200 @@
+.page-wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  overflow-y: auto; /* Enable vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */}
+
+.refresh-time-label {
+  display: flex;
+  right: 0;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 20px 0 0;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  opacity: 0.9;
+}
+
+.refresh-time-logo {
+  padding-right: 5px;
+}
+
+.dashboard-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll; /* Allow vertical scrolling */
+  overflow-x: hidden; /* Disable horizontal scrolling */
+  /* background-color: #f4f9f9; */
+}
+
+.cost-explorer-wrapper,
+.top-services-wrapper {
+  width: 90%;
+  box-sizing: border-box;
+  padding: 30px;
+  display: block;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0px 0px 16px 4px rgba(10, 200, 200, 250); /* Increase darkness */
+}
+.aws-cost-container {
+  display: flex;
+  justify-content: space-between; /* You can adjust this as needed */
+  width: 90%; /* Adjust the width to leave some space between the divs */
+  margin-top: 20px;
+
+}
+.bottom-container {
+  display: flex;
+  justify-content: space-between; /* You can adjust this as needed */
+  width: 90%; /* Adjust the width to leave some space between the divs */
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+.aws-cost-wrapper {
+  width: 35%; /* Adjust the width to leave some space between the divs */
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0px 3px 4px 3px rgba(0, 0, 0, 0.15);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+  /* Add any other styling you need */
+
+}
+
+.aws-cost-wrapper-2 {
+  width: 35%; /* Adjust the width to leave some space between the divs */
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0px 3px 4px 3px rgba(0, 0, 0, 0.15);
+  position: relative;
+  /* Add any other styling you need */
+
+}
+
+.top-service-cost-wrapper {
+  width: 63%; /* Adjust the width to leave some space between the divs */
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0px 3px 4px 3px rgba(0, 0, 0, 0.15);
+  /* padding-top: 20; */
+  padding-bottom: 20px;
+  position: relative;;
+}
+
+.top-services-wrapper {
+  margin: 50px 0 50px 0;
+  position: relative;
+}
+
+.select-cost-explorer {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+
+.cost-explorer-title,
+.top-services-title { 
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.top-services-title {
+  margin-bottom: 20px;
+}
+
+.cost-explorer,
+.top-services {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px 0;
+  background-color: white;
+}
+
+.top-services {
+  margin: 0;
+}
+
+.icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+}
+
+.card-data-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 60px;
+  width: 60%;
+}
+
+.card-data-div p:first-child {
+  font-weight: 800;
+  font-size: 20px;
+  margin: 0;
+}
+
+.card-data-div p:last-child {
+  font-size: 14px;
+  margin: 0;
+}
+.error-logo-div {
+  height: 60%;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.error-logo-img {
+  max-width: 100%; /* Adjust the maximum width as needed */
+  max-height: 100%; /* Adjust the maximum height as needed */
+  width: auto; /* Automatically adjust the width to maintain aspect ratio */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
+.bold-header .MuiDataGrid-columnHeaderTitle {
+  font-weight: bold;
+}
+
+.bold-special .MuiDataGrid-columnHeaderTitle {
+  color: #273646;
+}
+
+.bold-orange .MuiDataGrid-columnHeaderTitle {
+  color: #FF6F1A;
+}
+
+.grey-cell .MuiDataGrid-cellContent {
+  color: grey;
+}
+
+.orange-cell .MuiDataGrid-cellContent {
+  color: #FF6F1A;
+  font-weight: bold;
+}
+
+.dashboard-datagrid .MuiDataGrid-virtualScroller {
+  overflow: hidden !important;
+}

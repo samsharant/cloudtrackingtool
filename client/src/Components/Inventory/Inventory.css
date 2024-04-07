@@ -1,0 +1,131 @@
+.page-wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.inventory-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll; /* Allow vertical scrolling */
+  overflow-x: hidden; /* Disable horizontal scrolling */
+  background-color: #ffffff !important;
+
+}
+
+.inventory-main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content-wrapper {
+  width: 97%;
+  margin-top: 10px !important; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .data-grid-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: -30px;
+  color: #697572;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+  padding: 30px 10px;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: inset 10px 10px 20px #ebebeb, inset -10px -10px 20px #ffffff;
+} */
+
+.table-container {
+  width: 100%;
+}
+.logo-div {
+  height: 100%;
+  width: 200px;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo-img {
+  max-width: 200px; /* Adjust the maximum width as needed */
+  width: auto; /* Automatically adjust the width to maintain aspect ratio */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center text horizontally */
+  height: 100%;
+}
+.tag-cards-container {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  margin-left: 0px;
+  align-items: center;
+
+}
+.slider-cards-container{
+  display: flex;
+  width: 200px;
+  align-items: center;
+  margin-top: 20px;
+}
+.slick-container{
+  margin-top: 50px;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.slick-list {
+  width: 325px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #000 !important; /* Set the color to dark (black) */
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+/* You can also customize other arrow properties, e.g., hover color */
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  color: #333 !important; /* Darker color on hover (optional) */
+}
+.tag-card {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  background: #ffffff;
+  margin-right: 20px;
+  box-shadow: 0px 3px 4px 3px rgba(0, 0, 0, 0.10);
+}
+
+/* 
+.tag-card-data-wrapper {
+  display: flex;
+  justify-content: space-around;
+} */

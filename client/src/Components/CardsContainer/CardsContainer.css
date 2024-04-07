@@ -1,0 +1,62 @@
+.cards-container {
+  display: flex;
+  min-height: 200px;
+  width: 90%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 72%;
+  width: 20%;
+  padding: 0px 10px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px 4px rgba(0, 0, 0, 0.10);
+}
+
+.card-title-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.card-data-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profit-percentage-div,
+.non-profit-percentage-div {
+  padding: 4px;
+  border-radius: 8px;
+  display: inline-flex;
+  font-size: 15px;
+  text-align: left;
+  color: rgb(0, 125, 0);
+  background-color: rgb(194, 235, 194);
+}
+
+.non-profit-percentage-div {
+  background-color: rgb(241, 194, 194);
+  color: rgb(192, 25, 25);
+}
+
+@keyframes rotateImg{
+  from {
+   transform: rotate(0deg);
+  }
+ to {
+  transform: rotate(359deg);
+ }
+}
+.loading {
+  display: flex;
+  position: relative;
+  animation: rotateImg 1s linear infinite;
+}

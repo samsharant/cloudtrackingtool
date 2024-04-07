@@ -1,0 +1,9 @@
+.cpu-utilization-wrapper {
+  height: 100px;
+  width: 100px;
+}
+
+.cpu-utilization-wrapper div {
+  height: 100%;
+  width: auto;
+}

@@ -1,0 +1,122 @@
+.tabs-container {
+  height: 100vh;
+  width: 17%;
+  background-color: #273646;
+  font-weight: bolder;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 0 0;
+  box-sizing: border-box;
+  transition: width 0.3s ease; /* Add a transition for smooth collapsing/expanding */
+}
+.arrow-icon {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease; /* Add a transition for arrow rotation */
+}
+
+.arrow-icon.collapsed {
+  transform: rotate(-135deg);
+}
+.tabs-container.collapsed {
+  width: 60px; /* Adjust the collapsed width as needed */
+}
+.logo-placeholder {
+  width: 100%;
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.vb-logo {
+  position: relative;
+  left: -15px;
+  height: 50px;
+  width: auto;
+  opacity: 0.7;
+}
+
+.tab,
+.active-tab {
+  padding: 5%;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 35px;
+  letter-spacing: 3px;
+  border-radius: 44px;
+  background: #273646;
+  box-sizing: border-box;
+  font-weight: bolder;
+}
+
+a:not(a:first-child) {
+  text-decoration: none;
+  /* width: 80%; */
+  color: inherit;
+}
+
+a {
+  cursor: pointer;
+}
+
+.active-tab {
+  color: rgb(230,146,58);
+}
+
+.tab a,
+.active-tab a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.tab:hover {
+  color: #ffffff;
+  background-color: #223141;
+}
+.logout-button {
+  margin-top: auto; /* Push the button to the bottom of the container */
+}
+
+.disabled-tab {
+  padding: 5%;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 35px;
+  letter-spacing: 3px;
+  border-radius: 44px;
+  background: #273646;
+  box-sizing: border-box;
+}
+
+.logout-icon-container {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #223141;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.logout-icon {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.logout-icon-container:hover .logout-text {
+  opacity: 1; /* Show the text on hover */
+}
+
+.login-icon-container:hover .login-icon {
+  color: #6e4633; /* Change icon color on hover */
+}
+

@@ -1,0 +1,28 @@
+# For backend 
+api/node_modules/
+api/.env
+api/.DS_Store
+#api/coverage/
+api/.nyc_output/
+
+
+# For front-end
+client/node_modules/
+
+client/yarn.lock
+client/.pnp
+.pnp.js
+client/coverage
+#client/build
+
+client/.DS_Store
+
+client/.env
+#client/npm-debug.log*
+#client/yarn-debug.log*
+#client/yarn-error.log*
+
+.env.development
+.env.production
+.env.local
+.DS_Store

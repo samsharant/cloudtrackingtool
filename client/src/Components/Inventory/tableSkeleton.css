@@ -1,0 +1,54 @@
+@keyframes moveRightToLeft {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-20px); /* Adjust the value to control the distance */
+  }
+}
+  .skeleton-container {
+    position: relative;
+  }
+  
+  .circular-icon {
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    animation: moveRightToLeft 1.5s linear infinite; /* Adjust animation duration as needed */
+    transform-origin: center center; 
+    height: 80px;
+    width: auto;
+  }
+  .circularSecondary-icon {
+    position: absolute;
+    top: 43%;
+    left: 45%;
+    animation: moveRightToLeft 1.5s linear infinite; /* Adjust animation duration as needed */
+    transform-origin: center center; 
+    height: 30px;
+    width: auto;
+  }
+  .circularThird-icon {
+    position: absolute;
+    top: 52%;
+    left: 55%;
+    animation: moveRightToLeft 1.5s linear infinite; /* Adjust animation duration as needed */
+    transform-origin: center center; 
+    height: 30px;
+    width: auto;
+  }
+  .logoCircular-div {
+    height: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .textLoading {
+    position: absolute;
+    top: 65%;
+    left: 47%;
+    transform-origin: center center; 
+    height: 30px;
+    width: auto;
+  }

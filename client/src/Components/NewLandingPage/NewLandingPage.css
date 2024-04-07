@@ -1,0 +1,36 @@
+.landing-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: 100vh;
+    width: 100vw;
+}
+
+.grid-item-landing {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo-landing-page img {
+    height: 80px;
+    width: auto;
+}
+
+.buttons-stack {
+    margin-top: 2px !important;
+}
+
+.logo-landing-page {
+    width: 100% !important;
+}
+
+.poster-container {
+    background: linear-gradient(to bottom, #fe6f1a, #ca7f52);
+    height: 100%
+}
+
+.landing-carousel {
+    padding-top: 5%;
+    width: 20% ;
+    height: 30% ;
+}

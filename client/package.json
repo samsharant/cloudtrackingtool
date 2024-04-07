@@ -1,0 +1,80 @@
+{
+  "name": "cloud-optimization-frontend",
+  "version": "1.0.8",
+  "private": true,
+  "author": "Valuebound <contact@valuebound.com>",
+  "contributors": [
+    {
+      "name": "Sam Sharan",
+      "email": "sam.sharan@valuebound.com"
+    },
+    {
+      "name": "Aryan Singh",
+      "email": "aryansingh@valuebound.com"
+    },
+    {
+      "name": "Vaibhav Jha",
+      "email": "vaibhav.jha@valuebound.com"
+    }
+  ],
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.6",
+    "@mui/material": "^5.14.20",
+    "@mui/x-data-grid": "^6.11.2",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "alertifyjs": "^1.13.1",
+    "axios": "^1.4.0",
+    "axios-observable": "^2.0.0",
+    "byte-size": "^8.1.1",
+    "chart.js": "^4.4.0",
+    "crypto-js": "^4.1.1",
+    "lottie-react": "^2.4.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^9.1.3",
+    "redux-observable": "^2.0.0",
+    "rxjs": "^7.8.1",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env.local react-scripts start",
+    "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!axios)/\"",
+    "build:local": "env-cmd -f .env.local react-scripts build",
+    "build:dev": "env-cmd -f .env.development react-scripts build",
+    "build:prod": "env-cmd -f .env.production react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "jest-canvas-mock": "^2.5.2"
+  }
+}

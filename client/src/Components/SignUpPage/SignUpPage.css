@@ -1,0 +1,78 @@
+.signup-page-container {
+  display: flex;
+  background: linear-gradient(90deg, #fff3e9 30%, #ffffff 70%);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  min-height: 100vh;
+  position: relative;
+}
+
+.white-background {
+  background-color: white !important; /* Override the background color */
+}
+
+.logoSignup-div {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  margin-top: 10%; /* Add 10% margin from the top */
+}
+
+.logoSignup-div img {
+  max-width: 55%; /* Ensure the image doesn't exceed its container */
+}
+.sposter-text {
+  margin-top: 2em; 
+}
+
+.container-page {
+  margin-right: 80px !important;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.poster3-div {
+  height: 200px; /* Adjust the height as needed */
+  width: 200px;
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.poster3-div img {
+  height: 220px;
+  width: auto;
+}
+
+.poster3-image {
+  filter: blur(10px); /* Apply initial blur */
+  transition: filter 0.9s ease; /* Add a smooth transition effect */
+}
+
+/* When the poster image is loaded, remove the blur effect */
+.poster3-image.loaded {
+  filter: blur(0);
+}
+
+/* Additional styles for the heading and text */
+.poster3-page h1 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.about-tool-content {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.signup-page-container .poster3-page h1 span {
+  color: #e6923a;
+}

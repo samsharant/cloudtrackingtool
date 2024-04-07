@@ -1,0 +1,32 @@
+.error-page-animation-wrapper {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-page-animation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+  width: 90%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.error-page-animation-container div {
+  height: 100%;
+}
+
+.error-message {
+  height: 50px;
+  position: relative;
+  top: -50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #424242;
+}

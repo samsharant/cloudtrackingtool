@@ -1,0 +1,157 @@
+.aws-selector {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add some margin if needed */
+  }
+  
+  .aws-card {
+    max-width: 110px; /* Set the desired image width */
+    height: auto;
+    cursor: pointer;
+    transition: filter 0.2s ease-in-out;
+  }
+  .gcb-card {
+    max-width: 80px; /* Set the desired image width */
+    height: auto;
+    cursor: pointer;
+    transition: filter 0.2s ease-in-out;
+  }
+  .azure-card {
+    max-width: 100px; /* Set the desired image width */
+    height: auto;
+    margin: 5px;
+    cursor: pointer;
+    transition: filter 0.2s ease-in-out;
+  }
+  
+  /* Apply a filter to make the image darker on hover */
+  .aws-card {
+    /* Initial state */
+    filter: brightness(1);
+  
+    /* Hover state */
+    &:hover {
+      filter: brightness(0.75);
+    }
+  }
+  .gcb-card {
+    /* Initial state */
+    filter: brightness(0.6);
+  
+    /* Hover state */
+    &:hover {
+      filter: brightness(0.6);
+    }
+    pointer-events: none;
+
+  }
+  .azure-card {
+    /* Initial state */
+    filter: brightness(.6);
+  
+    /* Hover state */
+    &:hover {
+      filter: brightness(0.6);
+    }
+    pointer-events: none;
+
+  }
+  .aws-card.selected {
+    filter: brightness(.75);
+  }
+  .gcb-card.selected {
+    filter: brightness(.75);
+  }
+  .azure-card.selected {
+    filter: brightness(0.5);
+  }
+  .confirmation-page-container {
+    display: flex;
+    background: linear-gradient(90deg, #fff3e9 30%, #ffffff 70%);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height: 100vh; /* Ensure the container is at least as tall as the viewport */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    min-height: 100vh;
+    position: relative;
+  }
+  .white-background {
+    background-color: white !important; /* Override the background color */
+  }
+  .logo-div {
+    height: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-div img {
+    height: 80px;
+    width: auto;
+  }
+  .container-page {
+    margin-right: 80px !important;
+  }
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .confirmation-page-container .poster-page h1 span {
+    color: #e6923a;
+  }
+  .pointer-cursor {
+    cursor: pointer;
+  }
+  .coming-soon-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: none; /* Initially hide the overlay */
+    max-width: 100px; /* Set the desired image width */
+    height: auto;
+    margin: 5px;
+  }
+  .poster-div {
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .poster-container {
+    position: relative;
+    height: 120px;
+    width: auto;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .poster2-div-dc {
+    height: 120px;
+    width: 180px;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .poster-div img,
+.poster2-div-dc img {
+  height: 120px;
+  width: auto;
+  margin: 2px
+}
+
+  .gcb-card:hover .coming-soon-overlay,
+.azure-card:hover .coming-soon-overlay {
+  display: block;
+}

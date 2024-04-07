@@ -1,0 +1,88 @@
+/* .login-page-container {
+    display: flex;
+    background: linear-gradient(90deg, #fff3e9 30%, #ffffff 70%);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+  }
+   */
+  .white-background {
+    background-color: white !important;
+  }
+  
+  .logoLogin-div {
+    height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logoLogin-div img {
+    height: 80px;
+    width: auto;
+  }
+  
+  .container-page,
+  .poster1-page {
+    flex: 1; /* Make both containers flexible to occupy remaining space */
+    margin: 0 20px; /* Add margin between the containers */
+    height: auto;
+  }
+  
+  .poster1-page {
+    margin-left: 2 !important; /* Reset left margin for the lower container */
+  }
+  
+ .aboutUs-page-container {
+  background: linear-gradient(90deg, #fff3e9 30%, #ffffff 70%);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction:row; 
+}
+
+/* Remove absolute positioning and set width to 100% for the footer */
+.copyright {
+  /* width: 100%;
+  margin-top: 10px; */
+}
+  .poster1-div {
+    height: 330px !important;
+    width: 180px;
+    margin-right: 20px; /* Add margin between the images */
+    display: flex;
+    margin-left: 0px;
+    margin-top: 50px;
+    align-items: center;
+  }
+  
+  .poster1-div img {
+    height: 330px;
+    width: auto;
+  }
+  
+  .poster1-image {
+    filter: blur(10px); /* Apply initial blur */
+    transition: filter 0.9s ease; /* Add a smooth transition effect */
+  }
+  
+  /* When the poster image is loaded, remove the blur effect */
+  .poster1-image.loaded {
+    filter: blur(0);
+  }
+  .aboutUs-page-container .poster1-page h1 span {
+    color: #e6923a;
+  }
+  

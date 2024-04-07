@@ -1,0 +1,71 @@
+.page-wrapper {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.navbar-left {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    min-height: fit-content;
+}
+
+.navbar-right {
+    width: 14% !important;
+}
+
+#profile-greeting {
+    margin-left: 1%;
+}
+
+.dashboard-bar {
+    height: 10%;
+    border-bottom: 1px solid #273646;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+
+.grid-item {
+    height: 500px;
+    box-shadow: 0 4px 16px 4px rgba(0,0,0,.1);
+    border-radius: 16px;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#average-span {
+    color: #FF6F1A;
+}
+
+.MuiSlider-thumb {
+    color: #FF6F1A;
+}
+
+.cost-explorer-stack {
+    margin: 0 auto;
+}
+
+#line-graph, .add-service-btn {
+    margin: 0 auto;
+}
+
+.cost-legend {
+    margin-top: 20px;
+}
+
+.MuiSlider-root {
+    color: #FF6F1A !important;
+}
+
+#demo-simple-select {
+    padding: 4%;
+}
+

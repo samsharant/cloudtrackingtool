@@ -1,0 +1,85 @@
+.login-page-container {
+  display: flex;
+  background: white;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.white-background {
+  background-color: white !important;
+}
+
+.logoLogin-div {
+  height: 100%;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoLogin-div img {
+  height: 80px;
+  width: auto;
+}
+
+.container-page,
+.poster-page {
+  flex: 1; /* Make both containers flexible to occupy remaining space */
+  margin: 0 0; /* Add margin between the containers */
+}
+
+.poster-page {
+  margin-left: 2 !important; /* Reset left margin for the lower container */
+  background: linear-gradient(to bottom, #fe6f1a, #ca7f52);
+  flex: 1.5;
+}
+
+.poster-div-login {
+  display: flex; /* Display columns side by side */
+}
+
+.poster-div-login-column-1,
+.poster-div-login-column-2 {
+  width: 50%; /* Set width of each column to 50% */
+}
+/* .poster-div-login-row-1 img{
+  height: 50% !important;
+} */
+.poster-div-login-column-1 .poster-div-login-row-1 img {
+  max-width: 65%; /* Decrease the size of the image */
+  margin-left: 38%; /* Add left margin */
+  margin-top: 10%; /* Add top margin */
+}
+.poster-div-login-column-2 .poster-div-login-row-2 img {
+  max-width: 37%; /* Decrease the size of the image */
+  margin-left: 8%; /* Add left margin */
+  margin-top: 15%; /* Add top margin */
+  border-radius:6px; /* Add border radius */
+}
+.poster-div-login-column-2 .poster-div-login-row-3 img {
+  max-width: 38%; /* Decrease the size of the image */
+  margin-left: 8%; /* Add left margin */
+  margin-top: 5%; /* Add top margin */
+}
+.poster-div-login-column-2 .poster-div-login-row-4 img {
+  max-width: 38%; /* Decrease the size of the image */
+  margin-left: 8%; /* Add left margin */
+  margin-top: 5%; /* Add top margin */
+}
+.poster-div-login img {
+  /* width: 100%; Make images fill their container */
+  display: block; /* Ensure images don't overflow */
+}
+
+.poster-text {
+  text-align: start; /* Center align the text */
+  margin-left: 5%;
+  margin-top: 2em; 
+
+}
