@@ -1,4 +1,5 @@
 {
+  "homepage": "http://samsharant.github.io/cloudtrackingtool",
   "name": "cloud-optimization-frontend",
   "version": "1.0.8",
   "private": true,
@@ -50,6 +51,8 @@
   },
   "scripts": {
     "start": "env-cmd -f .env.local react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!axios)/\"",
     "build:local": "env-cmd -f .env.local react-scripts build",
     "build:dev": "env-cmd -f .env.development react-scripts build",
@@ -75,6 +78,8 @@
   },
   "devDependencies": {
     "env-cmd": "^10.1.0",
+    "gh-pages": "^6.1.1",
     "jest-canvas-mock": "^2.5.2"
   }
 }
+
